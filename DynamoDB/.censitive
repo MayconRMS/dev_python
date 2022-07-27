@@ -1,0 +1,9 @@
+// Format <globPattern>:[keyRegex]
+.env:.*_KEY,.*_token,.*_PassWord
+id_rsa:*
+
+# Hide the following variables in .env files
+.env:.*_KEY,.*_token,.*_PassWord
+
+# Hide all passwords and api tokens in js and ts files
+*.{js,ts,http}:apitoken,.*password

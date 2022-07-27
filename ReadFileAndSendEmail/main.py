@@ -24,11 +24,11 @@ for mes in lista_meses:
         print(
             f'No mês {mes} alguém bateu a meta. Vendedor: {vendedor}, Vendas: {vendas}')
 
-        message = client.messages.create(
-            to="+5521972795556",
-            from_="+16093364135",
-            body=f'No mês {mes} alguém bateu a meta. Vendedor: {vendedor}, Vendas: {vendas}')
-        print(message.sid)
+        # message = client.messages.create(
+        #    to="+5521972795556",
+        #    from_="+16093364135",
+        #    body=f'No mês {mes} alguém bateu a meta. Vendedor: {vendedor}, Vendas: {vendas}')
+        # print(message.sid)
 
 
 # Para cada arquivo:
